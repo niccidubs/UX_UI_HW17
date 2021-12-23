@@ -1,0 +1,41 @@
+html
+
+li { 
+font-family: Arial, Sans-Serif }
+
+.navigation {
+display: inline-block;
+padding: 20px;
+background-color: #2E4159;
+color: white;
+width: 100%;
+}
+
+.inline-block {
+display: inline-block;
+}
+
+.navbox {
+    width: 110px;
+    height: 60px;
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.logo {
+    
+
+}
+
+.aboutMe {
+
+}
+
+
+
+.myWork {
+
+}
+
+.contact {
+    
+}
