@@ -1,4 +1,6 @@
-html {}
+/* ======================
+   Text
+   =====================*/
 
 h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -11,9 +13,12 @@ h2 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 275;
     font-size: 43px;
-    line-height: 0px;
     color: white;
 }
+
+/* ======================
+   Navigation
+   =====================*/
 
 li {
     display: inline-block;
@@ -38,15 +43,43 @@ li {
     padding: 20px
 }
 
+/* ======================
+   Hero Section
+   =====================*/
+
 .heroImg {
+    height: 680px;
     background-color: #2E4159;
 }
 
-.content {
-    padding: 20px
+/* ======================
+   Hi. I'm Nicole
+   =====================*/
+.left-block {
+    height: 680px;
+    margin-left: 138px;
+    float: left;
+    background-color: #2e4159;
+    width: 450px;
+    text-align: left;
 }
 
-.headshot {
+.intro {
+    height: 396px;
+    margin-left: 69px;
+    margin-right: 69px;
+    margin-top: 150px;
+}
+
+/* ======================
+   Headshot
+   =====================*/
+.right-block {
+    height: 680px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: 138px;
     float: right;
-    padding-right: 80px;
+    background-color: #2E4159;
+    text-align: center;
 }
