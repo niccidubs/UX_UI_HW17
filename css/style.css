@@ -16,6 +16,27 @@ h2 {
     color: white;
 }
 
+h2.footer {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 275;
+    font-size: 43px;
+    line-height: 0px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 275;
+    font-size: 43px;
+    color: #2e4159
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #707070
+}
+
 /* ======================
    Navigation
    =====================*/
@@ -25,7 +46,6 @@ li {
     font-size: 24px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     padding-right: 30px;
-    background-color: #2E4159;
 }
 
 .inline-block {
@@ -59,7 +79,6 @@ li {
     height: 680px;
     margin-left: 138px;
     float: left;
-    background-color: #2e4159;
     width: 450px;
     text-align: left;
 }
@@ -80,6 +99,55 @@ li {
     padding-right: 24px;
     margin-right: 138px;
     float: right;
-    background-color: #2E4159;
     text-align: center;
+}
+
+/* ======================
+   About Me
+   =====================*/
+
+ .skills-container {
+    display: flex;
+ }  
+
+.about-left {
+    margin-left: 138px;
+    flex-grow: 1;
+}
+
+.skills {
+   display: flex;
+    flex-shrink: 0; 
+    flex-direction: column;
+}
+
+/* ======================
+   Footer
+   =====================*/
+.footer {
+    display: inline-block;
+    background-color: #2E4159;
+    width: 100%;
+}
+
+
+.contact {
+    display: inline-block;
+    padding-bottom: 25px;
+    background-color: #2E4159;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.contact2 {
+    display: inline-block;
+    background-color: #fe8888;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+hr.solid {
+    border-top: 3px solid white;
 }
