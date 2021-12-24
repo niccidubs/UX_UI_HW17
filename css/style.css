@@ -16,18 +16,29 @@ h2 {
     color: white;
 }
 
-h2.footer {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-weight: 275;
-    font-size: 43px;
-    line-height: 0px;
-    color: white;
-}
 
 h3 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 275;
     font-size: 43px;
+    line-height: 0;
+    color: #2e4159
+}
+
+h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 75px;
+    margin-bottom: 0px;
+    color: #2e4159
+}
+
+h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 275;
+    font-size: 35px;
+    margin: 0px;
     color: #2e4159
 }
 
@@ -37,88 +48,136 @@ p {
     color: #707070
 }
 
+a {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #707070;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 /* ======================
    Navigation
    =====================*/
 
-li {
-    display: inline-block;
-    font-size: 24px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    padding-right: 30px;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
 .navigation {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #2E4159;
-    color: white;
-    width: 100%;
+    height: 138px;
+}
+
+.logo,
+.menu {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
-    padding: 20px
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 80px;
 }
+
+
+.menu-bar {
+    justify-content: flex-end;
+}
+
+.menu {
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-right: 75px;
+    text-align: center;
+}
+
 
 /* ======================
    Hero Section
    =====================*/
 
-.heroImg {
+.heroSection {
+    background-color: #2e4159;
     height: 680px;
-    background-color: #2E4159;
+}
+
+.heroParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ======================
    Hi. I'm Nicole
    =====================*/
-.left-block {
-    height: 680px;
-    margin-left: 138px;
-    float: left;
-    width: 450px;
-    text-align: left;
-}
 
-.intro {
-    height: 396px;
-    margin-left: 69px;
-    margin-right: 69px;
-    margin-top: 150px;
+.heroChild1 {
+    width: 405px;
+    height: 605px;
+    padding-right: 75px;
+    padding-left: 75px;
 }
 
 /* ======================
    Headshot
    =====================*/
-.right-block {
-    height: 680px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-right: 138px;
-    float: right;
-    text-align: center;
+   
+.heroChild2 {
+    padding-right: 75px;
 }
 
 /* ======================
    About Me
    =====================*/
 
- .skills-container {
+.aboutMeParent {
     display: flex;
- }  
-
-.about-left {
-    margin-left: 138px;
-    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: center;
 }
 
-.skills {
-   display: flex;
-    flex-shrink: 0; 
-    flex-direction: column;
+.aboutMeChild1 {
+    padding: 75px;
+    padding-right: 150px;
+}
+
+.skillsChild2 {
+    padding: 75px;
+    padding-right: 200px;
+}
+
+/* ======================
+   My Work
+   =====================*/
+
+.myWorkHeader {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.workSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding-left: 75px;
+    padding-right: ;
+}
+
+.myWorkChild1 {
+    padding-right: 100px;
 }
 
 /* ======================
@@ -130,6 +189,13 @@ li {
     width: 100%;
 }
 
+.footer h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 275;
+    font-size: 43px;
+    line-height: 0px;
+    color: white;
+}
 
 .contact {
     display: inline-block;
@@ -141,13 +207,24 @@ li {
 }
 
 .contact2 {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fe8888;
     color: white;
-    width: 100%;
-    text-align: center;
+    height: 50px;
 }
 
-hr.solid {
-    border-top: 3px solid white;
+.contact2child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.contact2child a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
