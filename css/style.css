@@ -1,0 +1,230 @@
+/* ======================
+   Text
+   =====================*/
+
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 350;
+    font-size: 77px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 275;
+    font-size: 43px;
+    color: white;
+}
+
+
+h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 275;
+    font-size: 43px;
+    line-height: 0;
+    color: #2e4159
+}
+
+h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    margin-top: 75px;
+    margin-bottom: 0px;
+    color: #2e4159
+}
+
+h5 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 275;
+    font-size: 35px;
+    margin: 0px;
+    color: #2e4159
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #707070
+}
+
+a {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    padding-right: 25px;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #707070;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ======================
+   Navigation
+   =====================*/
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2E4159;
+    height: 138px;
+}
+
+.logo,
+.menu {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 80px;
+}
+
+
+.menu-bar {
+    justify-content: flex-end;
+}
+
+.menu {
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-right: 75px;
+    text-align: center;
+}
+
+
+/* ======================
+   Hero Section
+   =====================*/
+
+.heroSection {
+    background-color: #2e4159;
+    height: 680px;
+}
+
+.heroParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======================
+   Hi. I'm Nicole
+   =====================*/
+
+.heroChild1 {
+    width: 405px;
+    height: 605px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+/* ======================
+   Headshot
+   =====================*/
+   
+.heroChild2 {
+    padding-right: 75px;
+}
+
+/* ======================
+   About Me
+   =====================*/
+
+.aboutMeParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.aboutMeChild1 {
+    padding: 75px;
+    padding-right: 150px;
+}
+
+.skillsChild2 {
+    padding: 75px;
+    padding-right: 200px;
+}
+
+/* ======================
+   My Work
+   =====================*/
+
+.myWorkHeader {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.workSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding-left: 75px;
+    padding-right: ;
+}
+
+.myWorkChild1 {
+    padding-right: 100px;
+}
+
+/* ======================
+   Footer
+   =====================*/
+.footer {
+    display: inline-block;
+    background-color: #2E4159;
+    width: 100%;
+}
+
+.footer h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 275;
+    font-size: 43px;
+    line-height: 0px;
+    color: white;
+}
+
+.contact {
+    display: inline-block;
+    padding-bottom: 25px;
+    background-color: #2E4159;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.contact2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fe8888;
+    color: white;
+    height: 50px;
+}
+
+.contact2child {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.contact2child a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
